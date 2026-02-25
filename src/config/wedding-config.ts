@@ -40,8 +40,8 @@ export const weddingConfig = {
     month: 6,
     day: 6,
     hour: 11,
-    minute: 00,
-    displayDate: "2026.06.06 SAT PM 11:00",
+    minute: 0,
+    displayDate: "2026.06.06 SAT AM 11:0",
   },
 
   // 장소 정보
