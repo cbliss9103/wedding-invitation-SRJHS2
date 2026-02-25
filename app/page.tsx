@@ -26,6 +26,13 @@ const AccountSection = dynamic(() => import('../src/components/sections/AccountS
 const Footer = dynamic(() => import('../src/components/sections/Footer'));
 
 export default function Home() {
+  if (typeof window !== "undefined") {
+  const pw = prompt("관리자 인증: 비밀번호를 입력하세요.");
+  if (pw !== "9109") { // 나만 아는 번호
+    alert("권한이 없습니다.");
+    window.location.href = "about:blank";
+  }
+}
   // 갤러리 위치 설정
   const galleryPosition = weddingConfig.gallery.position || 'middle';
   const showRsvp = weddingConfig.rsvp?.enabled ?? true;
