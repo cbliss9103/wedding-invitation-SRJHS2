@@ -13,7 +13,7 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "신랑 ❤️ 신부의 결혼식에 초대합니다",
+    title: "신랑 최정한 ❤️ 신부 이새롬의 결혼식에 초대합니다",
     description: "결혼식 초대장",
     ogImage: "/images/ha0h-1fsi-bqt3.jpg",
     noIndex: true,
@@ -24,8 +24,8 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2026년 5월 16일 토요일 12시 30분",
-    venue: "웨딩홀 이름"
+    date: "2026년 6월 6일 토요일 11시",
+    venue: "신도림 웨스턴베니비스 아스타홀"
   },
 
   // 소개글
@@ -37,19 +37,19 @@ export const weddingConfig = {
   // 결혼식 일정
   date: {
     year: 2026,
-    month: 5,
-    day: 16,
-    hour: 12,
-    minute: 30,
-    displayDate: "2026.05.16 SAT PM 12:30",
+    month: 6,
+    day: 6,
+    hour: 11,
+    minute: 00,
+    displayDate: "2026.06.06 SAT PM 11:00",
   },
 
   // 장소 정보
   venue: {
-    name: "웨딩홀 이름",
-    address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
+    name: "아스타홀",
+    address: "주소 입력 필요",
     tel: "02-1234-5678",
-    naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
+    naverMapId: "아스타홀", // 네이버 지도 검색용 장소명
     coordinates: {
       latitude: 37.5665,
       longitude: 126.9780,
